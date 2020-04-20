@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Detail"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:paddingLeft="10dp"
+        android:id="@+id/sr_imageDetailTV"
+        />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/sr_imageIV"
+        android:layout_below="@id/sr_imageDetailTV"
+        android:src="@drawable/subway"
+        />
+</RelativeLayout>
